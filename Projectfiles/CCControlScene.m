@@ -2,6 +2,7 @@
  * CCControlScene.m
  *
  * Copyright (c) 2011 Yannick Loriot
+ * Modified 2012 by Brian Chu for MakeGamesWith.Us: http://makegameswith.us
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,17 +25,7 @@
  */
 
 #import "CCControlScene.h"
-
 #import "CCControlSceneManager.h"
-
-@interface CCControlScene ()
-
-// Menu Callbacks
-- (void)previousCallback:(id)sender;
-- (void)restartCallback:(id)sender;
-- (void)nextCallback:(id)sender;
-
-@end
 
 @implementation CCControlScene
 @synthesize sceneTitleLabel;
@@ -54,18 +45,18 @@
         [background setPosition:ccp(screensize.width / 2, screensize.height / 2)];
         [self addChild:background];
         
-        // Add the ribbon
+        // Add the ribbon at the top
         CCScale9Sprite *ribbon = [CCScale9Sprite spriteWithFile:@"ribbon.png" capInsets:CGRectMake(1, 1, 48, 55)];
         [ribbon setContentSize:CGSizeMake(screensize.width, 57)];
         [ribbon setPosition:ccp(screensize.width / 2.0f, screensize.height - ribbon.contentSize.height / 2.0f)];
         [self addChild:ribbon];
         
-        // Add the title
+        // Add the title to the ribbon
         self.sceneTitleLabel = [CCLabelTTF labelWithString:@"Title" fontName:@"Arial" fontSize:12];
         [sceneTitleLabel setPosition:ccp (screensize.width / 2, screensize.height - sceneTitleLabel.contentSize.height / 2 - 5)];
         [self addChild:sceneTitleLabel z:1];
         
-        // Add the menu
+        // Add the menu for navigation between examples
 		CCMenuItemImage *item1 = 
         [CCMenuItemImage itemFromNormalImage:@"b1.png" selectedImage:@"b2.png" target:self selector:@selector(previousCallback:)];
 		CCMenuItemImage *item2 =
@@ -100,11 +91,7 @@
 	return scene;
 }
 
-#pragma mark -
-#pragma mark CCControlScene Public Methods
-
-#pragma mark CCControlScene Private Methods
-
+//These methods are called when you press the green menu buttons (left, right, center buttons):
 - (void)previousCallback:(id)sender
 {
     [[CCDirector sharedDirector] replaceScene:[[CCControlSceneManager sharedControlSceneManager] previousControlScene]];

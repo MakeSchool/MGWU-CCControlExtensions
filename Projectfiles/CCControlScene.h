@@ -2,6 +2,7 @@
  * CCControlScene.h
  *
  * Copyright (c) 2011 Yannick Loriot
+ * Modified 2012 by Brian Chu for MakeGamesWith.Us: http://makegameswith.us
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -26,7 +27,6 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 #import "kobold2d.h"
-
 #import "CCControlExtension.h"
 
 @interface CCControlScene : CCLayer
@@ -37,7 +37,9 @@
 /** Title label of the scene. */
 @property (nonatomic, strong) CCLabelTTF *sceneTitleLabel;
 
-#pragma mark Constructors - Initializers
+- (void)previousCallback:(id)sender;
+- (void)restartCallback:(id)sender;
+- (void)nextCallback:(id)sender;
 
 /**
  * Returns a CCScene that contains the CCControl example layer.
@@ -46,6 +48,5 @@
  */
 + (CCScene *)sceneWithTitle:(NSString *)title;
 
-#pragma mark Public Methods
 
 @end

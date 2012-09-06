@@ -2,6 +2,7 @@
  * CCControlSceneManager.m
  *
  * Copyright (c) 2011 Yannick Loriot
+ * Modified 2012 by Brian Chu for MakeGamesWith.Us: http://makegameswith.us
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,16 +25,9 @@
  */
 
 #import "CCControlSceneManager.h"
-
 #import "CCControlScene.h"
 
-@interface CCControlSceneManager ()
-/** Control scene id. */
-@property (nonatomic, assign) NSInteger currentControlSceneId;
-/** List of control scene's names. */
-@property (nonatomic, strong) NSArray *controlScenes;
-
-@end
+//**This is a singleton class**
 
 @implementation CCControlSceneManager
 @synthesize currentControlSceneId, controlScenes;
@@ -47,8 +41,10 @@ static CCControlSceneManager *sharedInstance = nil;
 {
     if ((self = [super init]))
     {
+        //current scene id
         currentControlSceneId = 0;
         
+        //list of classes that can be cycled through
         controlScenes = [[NSArray alloc] initWithObjects:
                          @"CCControlSliderExample",
                          @"CCControlColorPickerExample",
@@ -76,7 +72,7 @@ static CCControlSceneManager *sharedInstance = nil;
 
 #pragma mark -
 #pragma mark CCControlSceneManager Public Methods
-
+//These methods are called to set up scenes after the left/right/center buttons are pressed
 - (CCScene *)nextControlScene
 {
 	currentControlSceneId = (currentControlSceneId + 1) % [controlScenes count];

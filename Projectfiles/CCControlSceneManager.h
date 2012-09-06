@@ -2,6 +2,7 @@
  * CCControlSceneManager.h
  *
  * Copyright (c) 2011 Yannick Loriot
+ * Modified 2012 by Brian Chu for MakeGamesWith.Us: http://makegameswith.us
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -25,14 +26,18 @@
 
 #import "cocos2d.h"
 
+//**This is a singleton class**
+
 @interface CCControlSceneManager : NSObject
 {
 @private
     NSInteger currentControlSceneId;
     NSArray *controlScenes;
 }
-
-#pragma mark Constructors - Initializers
+/** Control scene id. */
+@property (nonatomic, assign) NSInteger currentControlSceneId;
+/** List of control scene's names. */
+@property (nonatomic, strong) NSArray *controlScenes;
 
 /** Returns the singleton of the control scene manager. */
 + (CCControlSceneManager *)sharedControlSceneManager;
