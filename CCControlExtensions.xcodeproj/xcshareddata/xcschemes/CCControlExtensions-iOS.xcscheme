@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DCC1A0E213A94ED5005BD75D"
-               BuildableName = "CCControlExtensions-iOS.app"
+               BuildableName = ".app"
                BlueprintName = "CCControlExtensions-iOS"
                ReferencedContainer = "container:CCControlExtensions.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DCC1A0E213A94ED5005BD75D"
-            BuildableName = "CCControlExtensions-iOS.app"
+            BuildableName = ".app"
             BlueprintName = "CCControlExtensions-iOS"
             ReferencedContainer = "container:CCControlExtensions.xcodeproj">
          </BuildableReference>
@@ -54,7 +54,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DCC1A0E213A94ED5005BD75D"
-            BuildableName = "CCControlExtensions-iOS.app"
+            BuildableName = ".app"
             BlueprintName = "CCControlExtensions-iOS"
             ReferencedContainer = "container:CCControlExtensions.xcodeproj">
          </BuildableReference>
@@ -74,7 +74,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DCC1A0E213A94ED5005BD75D"
-            BuildableName = "CCControlExtensions-iOS.app"
+            BuildableName = ".app"
             BlueprintName = "CCControlExtensions-iOS"
             ReferencedContainer = "container:CCControlExtensions.xcodeproj">
          </BuildableReference>
