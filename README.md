@@ -1,4 +1,4 @@
-Cocos2D-CCControlExtensions
+MGWU-CCControlExtensions
 ===========================
 
 Cocos2D versions of UIControl classes.
