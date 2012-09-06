@@ -46,12 +46,12 @@ static CCControlSceneManager *sharedInstance = nil;
         
         //list of classes that can be cycled through
         controlScenes = [[NSArray alloc] initWithObjects:
+                         @"CCControlButtonExample_VariableSize",
+                         @"CCControlButtonExample_Event",
                          @"CCControlSliderExample",
                          @"CCControlColorPickerExample",
                          @"CCControlSwitchExample",
                          @"CCControlStepperExample",
-                         @"CCControlButtonExample_Event",
-                         @"CCControlButtonExample_VariableSize",
                          @"CCControlPotentiometerExample",
                          nil];
     }
