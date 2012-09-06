@@ -9,13 +9,7 @@
 /* Begin PBXBuildFile section */
 		D711474E15F7DEC00063D9F6 /* CCControlScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D711474B15F7DEC00063D9F6 /* CCControlScene.m */; };
 		D711474F15F7DEC00063D9F6 /* CCControlSceneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D711474D15F7DEC00063D9F6 /* CCControlSceneManager.m */; };
-		D71147E215F7EADC0063D9F6 /* CCControlButtonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D711479715F7EADC0063D9F6 /* CCControlButtonTest.m */; };
-		D71147E315F7EADC0063D9F6 /* button-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D711479915F7EADC0063D9F6 /* button-hd.png */; };
-		D71147E415F7EADC0063D9F6 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = D711479A15F7EADC0063D9F6 /* button.png */; };
-		D71147E515F7EADC0063D9F6 /* buttonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D711479B15F7EADC0063D9F6 /* buttonBackground.png */; };
-		D71147E615F7EADC0063D9F6 /* buttonHighlighted-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D711479C15F7EADC0063D9F6 /* buttonHighlighted-hd.png */; };
-		D71147E715F7EADC0063D9F6 /* buttonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D711479D15F7EADC0063D9F6 /* buttonHighlighted.png */; };
-		D71147E815F7EADC0063D9F6 /* CCControlColourPickerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D71147A015F7EADC0063D9F6 /* CCControlColourPickerTest.m */; };
+		D71147E815F7EADC0063D9F6 /* CCControlColorPickerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D71147A015F7EADC0063D9F6 /* CCControlColorPickerExample.m */; };
 		D71147E915F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = D71147A315F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet-hd.plist */; };
 		D71147EA15F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147A415F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet-hd.png */; };
 		D71147EB15F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet-hd.tps in Resources */ = {isa = PBXBuildFile; fileRef = D71147A515F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet-hd.tps */; };
@@ -25,7 +19,7 @@
 		D71147EF15F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet.plist in Resources */ = {isa = PBXBuildFile; fileRef = D71147AB15F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet.plist */; };
 		D71147F015F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147AC15F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet.png */; };
 		D71147F115F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet.tps in Resources */ = {isa = PBXBuildFile; fileRef = D71147AD15F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet.tps */; };
-		D71147F215F7EADC0063D9F6 /* CCControlPotentiometerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D71147B015F7EADC0063D9F6 /* CCControlPotentiometerTest.m */; };
+		D71147F215F7EADC0063D9F6 /* CCControlPotentiometerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D71147B015F7EADC0063D9F6 /* CCControlPotentiometerExample.m */; };
 		D71147F315F7EADC0063D9F6 /* potentiometerButton -ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147B215F7EADC0063D9F6 /* potentiometerButton -ipad.png */; };
 		D71147F415F7EADC0063D9F6 /* potentiometerButton-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147B315F7EADC0063D9F6 /* potentiometerButton-hd.png */; };
 		D71147F515F7EADC0063D9F6 /* potentiometerButton-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147B415F7EADC0063D9F6 /* potentiometerButton-ipadhd.png */; };
@@ -38,21 +32,21 @@
 		D71147FC15F7EADC0063D9F6 /* potentiometerTrack-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147BB15F7EADC0063D9F6 /* potentiometerTrack-ipad.png */; };
 		D71147FD15F7EADC0063D9F6 /* potentiometerTrack-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147BC15F7EADC0063D9F6 /* potentiometerTrack-ipadhd.png */; };
 		D71147FE15F7EADC0063D9F6 /* potentiometerTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147BD15F7EADC0063D9F6 /* potentiometerTrack.png */; };
-		D71147FF15F7EADC0063D9F6 /* CCControlSliderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D71147C015F7EADC0063D9F6 /* CCControlSliderTest.m */; };
+		D71147FF15F7EADC0063D9F6 /* CCControlSliderExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D71147C015F7EADC0063D9F6 /* CCControlSliderExample.m */; };
 		D711480015F7EADC0063D9F6 /* sliderProgress-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147C215F7EADC0063D9F6 /* sliderProgress-hd.png */; };
 		D711480115F7EADC0063D9F6 /* sliderProgress.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147C315F7EADC0063D9F6 /* sliderProgress.png */; };
 		D711480215F7EADC0063D9F6 /* sliderThumb-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147C415F7EADC0063D9F6 /* sliderThumb-hd.png */; };
 		D711480315F7EADC0063D9F6 /* sliderThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147C515F7EADC0063D9F6 /* sliderThumb.png */; };
 		D711480415F7EADC0063D9F6 /* sliderTrack-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147C615F7EADC0063D9F6 /* sliderTrack-hd.png */; };
 		D711480515F7EADC0063D9F6 /* sliderTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147C715F7EADC0063D9F6 /* sliderTrack.png */; };
-		D711480615F7EADC0063D9F6 /* CCControlStepperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D71147CA15F7EADC0063D9F6 /* CCControlStepperTest.m */; };
+		D711480615F7EADC0063D9F6 /* CCControlStepperExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D71147CA15F7EADC0063D9F6 /* CCControlStepperExample.m */; };
 		D711480715F7EADC0063D9F6 /* stepper-minus-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147CC15F7EADC0063D9F6 /* stepper-minus-hd.png */; };
 		D711480815F7EADC0063D9F6 /* stepper-minus-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147CD15F7EADC0063D9F6 /* stepper-minus-ipadhd.png */; };
 		D711480915F7EADC0063D9F6 /* stepper-minus.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147CE15F7EADC0063D9F6 /* stepper-minus.png */; };
 		D711480A15F7EADC0063D9F6 /* stepper-plus-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147CF15F7EADC0063D9F6 /* stepper-plus-hd.png */; };
 		D711480B15F7EADC0063D9F6 /* stepper-plus-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147D015F7EADC0063D9F6 /* stepper-plus-ipadhd.png */; };
 		D711480C15F7EADC0063D9F6 /* stepper-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147D115F7EADC0063D9F6 /* stepper-plus.png */; };
-		D711480D15F7EADC0063D9F6 /* CCControlSwitchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D71147D415F7EADC0063D9F6 /* CCControlSwitchTest.m */; };
+		D711480D15F7EADC0063D9F6 /* CCControlSwitchExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D71147D415F7EADC0063D9F6 /* CCControlSwitchExample.m */; };
 		D711480E15F7EADC0063D9F6 /* switch-mask-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147D615F7EADC0063D9F6 /* switch-mask-hd.png */; };
 		D711480F15F7EADC0063D9F6 /* switch-mask-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147D715F7EADC0063D9F6 /* switch-mask-ipadhd.png */; };
 		D711481015F7EADC0063D9F6 /* switch-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = D71147D815F7EADC0063D9F6 /* switch-mask.png */; };
@@ -101,6 +95,13 @@
 		D711499515F8023A0063D9F6 /* r2-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D711497E15F8023A0063D9F6 /* r2-hd.png */; };
 		D711499615F8023A0063D9F6 /* r2-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D711497F15F8023A0063D9F6 /* r2-ipad.png */; };
 		D711499715F8023A0063D9F6 /* r2.png in Resources */ = {isa = PBXBuildFile; fileRef = D711498015F8023A0063D9F6 /* r2.png */; };
+		D79A185F15F92F4300DBEE4D /* CCControlButtonExample_Event.m in Sources */ = {isa = PBXBuildFile; fileRef = D79A185E15F92F4300DBEE4D /* CCControlButtonExample_Event.m */; };
+		D79A186715F932AC00DBEE4D /* button-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D79A186215F932AC00DBEE4D /* button-hd.png */; };
+		D79A186815F932AC00DBEE4D /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = D79A186315F932AC00DBEE4D /* button.png */; };
+		D79A186915F932AC00DBEE4D /* buttonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D79A186415F932AC00DBEE4D /* buttonBackground.png */; };
+		D79A186A15F932AC00DBEE4D /* buttonHighlighted-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = D79A186515F932AC00DBEE4D /* buttonHighlighted-hd.png */; };
+		D79A186B15F932AC00DBEE4D /* buttonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D79A186615F932AC00DBEE4D /* buttonHighlighted.png */; };
+		D79A186D15F932B600DBEE4D /* CCControlButtonExample_VariableSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D79A186C15F932B600DBEE4D /* CCControlButtonExample_VariableSize.m */; };
 		DC485B1113AA0E5600F2BC70 /* libchipmunk-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B0D13AA0E5600F2BC70 /* libchipmunk-mac.a */; };
 		DC485B1713AA0EBB00F2BC70 /* libbox2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B1613AA0EBB00F2BC70 /* libbox2d-mac.a */; };
 		DC485B4613AA18A600F2BC70 /* libcocosdenshion-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B4513AA18A600F2BC70 /* libcocosdenshion-mac.a */; };
@@ -145,15 +146,8 @@
 		D711474C15F7DEC00063D9F6 /* CCControlSceneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlSceneManager.h; sourceTree = "<group>"; };
 		D711474D15F7DEC00063D9F6 /* CCControlSceneManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlSceneManager.m; sourceTree = "<group>"; };
 		D711478615F7E75E0063D9F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D711479615F7EADC0063D9F6 /* CCControlButtonTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlButtonTest.h; sourceTree = "<group>"; };
-		D711479715F7EADC0063D9F6 /* CCControlButtonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlButtonTest.m; sourceTree = "<group>"; };
-		D711479915F7EADC0063D9F6 /* button-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-hd.png"; sourceTree = "<group>"; };
-		D711479A15F7EADC0063D9F6 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
-		D711479B15F7EADC0063D9F6 /* buttonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBackground.png; sourceTree = "<group>"; };
-		D711479C15F7EADC0063D9F6 /* buttonHighlighted-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonHighlighted-hd.png"; sourceTree = "<group>"; };
-		D711479D15F7EADC0063D9F6 /* buttonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonHighlighted.png; sourceTree = "<group>"; };
-		D711479F15F7EADC0063D9F6 /* CCControlColourPickerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlColourPickerTest.h; sourceTree = "<group>"; };
-		D71147A015F7EADC0063D9F6 /* CCControlColourPickerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlColourPickerTest.m; sourceTree = "<group>"; };
+		D711479F15F7EADC0063D9F6 /* CCControlColorPickerExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlColorPickerExample.h; sourceTree = "<group>"; };
+		D71147A015F7EADC0063D9F6 /* CCControlColorPickerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlColorPickerExample.m; sourceTree = "<group>"; };
 		D71147A315F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CCControlColourPickerSpriteSheet-hd.plist"; sourceTree = "<group>"; };
 		D71147A415F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCControlColourPickerSpriteSheet-hd.png"; sourceTree = "<group>"; };
 		D71147A515F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet-hd.tps */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CCControlColourPickerSpriteSheet-hd.tps"; sourceTree = "<group>"; };
@@ -163,8 +157,8 @@
 		D71147AB15F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CCControlColourPickerSpriteSheet.plist; sourceTree = "<group>"; };
 		D71147AC15F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCControlColourPickerSpriteSheet.png; sourceTree = "<group>"; };
 		D71147AD15F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet.tps */ = {isa = PBXFileReference; lastKnownFileType = file; path = CCControlColourPickerSpriteSheet.tps; sourceTree = "<group>"; };
-		D71147AF15F7EADC0063D9F6 /* CCControlPotentiometerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlPotentiometerTest.h; sourceTree = "<group>"; };
-		D71147B015F7EADC0063D9F6 /* CCControlPotentiometerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlPotentiometerTest.m; sourceTree = "<group>"; };
+		D71147AF15F7EADC0063D9F6 /* CCControlPotentiometerExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlPotentiometerExample.h; sourceTree = "<group>"; };
+		D71147B015F7EADC0063D9F6 /* CCControlPotentiometerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlPotentiometerExample.m; sourceTree = "<group>"; };
 		D71147B215F7EADC0063D9F6 /* potentiometerButton -ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerButton -ipad.png"; sourceTree = "<group>"; };
 		D71147B315F7EADC0063D9F6 /* potentiometerButton-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerButton-hd.png"; sourceTree = "<group>"; };
 		D71147B415F7EADC0063D9F6 /* potentiometerButton-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerButton-ipadhd.png"; sourceTree = "<group>"; };
@@ -177,24 +171,24 @@
 		D71147BB15F7EADC0063D9F6 /* potentiometerTrack-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerTrack-ipad.png"; sourceTree = "<group>"; };
 		D71147BC15F7EADC0063D9F6 /* potentiometerTrack-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potentiometerTrack-ipadhd.png"; sourceTree = "<group>"; };
 		D71147BD15F7EADC0063D9F6 /* potentiometerTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potentiometerTrack.png; sourceTree = "<group>"; };
-		D71147BF15F7EADC0063D9F6 /* CCControlSliderTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlSliderTest.h; sourceTree = "<group>"; };
-		D71147C015F7EADC0063D9F6 /* CCControlSliderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlSliderTest.m; sourceTree = "<group>"; };
+		D71147BF15F7EADC0063D9F6 /* CCControlSliderExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlSliderExample.h; sourceTree = "<group>"; };
+		D71147C015F7EADC0063D9F6 /* CCControlSliderExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlSliderExample.m; sourceTree = "<group>"; };
 		D71147C215F7EADC0063D9F6 /* sliderProgress-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderProgress-hd.png"; sourceTree = "<group>"; };
 		D71147C315F7EADC0063D9F6 /* sliderProgress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderProgress.png; sourceTree = "<group>"; };
 		D71147C415F7EADC0063D9F6 /* sliderThumb-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderThumb-hd.png"; sourceTree = "<group>"; };
 		D71147C515F7EADC0063D9F6 /* sliderThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderThumb.png; sourceTree = "<group>"; };
 		D71147C615F7EADC0063D9F6 /* sliderTrack-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderTrack-hd.png"; sourceTree = "<group>"; };
 		D71147C715F7EADC0063D9F6 /* sliderTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderTrack.png; sourceTree = "<group>"; };
-		D71147C915F7EADC0063D9F6 /* CCControlStepperTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlStepperTest.h; sourceTree = "<group>"; };
-		D71147CA15F7EADC0063D9F6 /* CCControlStepperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlStepperTest.m; sourceTree = "<group>"; };
+		D71147C915F7EADC0063D9F6 /* CCControlStepperExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlStepperExample.h; sourceTree = "<group>"; };
+		D71147CA15F7EADC0063D9F6 /* CCControlStepperExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlStepperExample.m; sourceTree = "<group>"; };
 		D71147CC15F7EADC0063D9F6 /* stepper-minus-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stepper-minus-hd.png"; sourceTree = "<group>"; };
 		D71147CD15F7EADC0063D9F6 /* stepper-minus-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stepper-minus-ipadhd.png"; sourceTree = "<group>"; };
 		D71147CE15F7EADC0063D9F6 /* stepper-minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stepper-minus.png"; sourceTree = "<group>"; };
 		D71147CF15F7EADC0063D9F6 /* stepper-plus-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stepper-plus-hd.png"; sourceTree = "<group>"; };
 		D71147D015F7EADC0063D9F6 /* stepper-plus-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stepper-plus-ipadhd.png"; sourceTree = "<group>"; };
 		D71147D115F7EADC0063D9F6 /* stepper-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stepper-plus.png"; sourceTree = "<group>"; };
-		D71147D315F7EADC0063D9F6 /* CCControlSwitchTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlSwitchTest.h; sourceTree = "<group>"; };
-		D71147D415F7EADC0063D9F6 /* CCControlSwitchTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlSwitchTest.m; sourceTree = "<group>"; };
+		D71147D315F7EADC0063D9F6 /* CCControlSwitchExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlSwitchExample.h; sourceTree = "<group>"; };
+		D71147D415F7EADC0063D9F6 /* CCControlSwitchExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlSwitchExample.m; sourceTree = "<group>"; };
 		D71147D615F7EADC0063D9F6 /* switch-mask-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch-mask-hd.png"; sourceTree = "<group>"; };
 		D71147D715F7EADC0063D9F6 /* switch-mask-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch-mask-ipadhd.png"; sourceTree = "<group>"; };
 		D71147D815F7EADC0063D9F6 /* switch-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch-mask.png"; sourceTree = "<group>"; };
@@ -257,6 +251,15 @@
 		D711497E15F8023A0063D9F6 /* r2-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "r2-hd.png"; sourceTree = "<group>"; };
 		D711497F15F8023A0063D9F6 /* r2-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "r2-ipad.png"; sourceTree = "<group>"; };
 		D711498015F8023A0063D9F6 /* r2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r2.png; sourceTree = "<group>"; };
+		D789A3BF15F9239100925440 /* CCControlButtonExample_VariableSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlButtonExample_VariableSize.h; sourceTree = "<group>"; };
+		D79A185D15F92F4300DBEE4D /* CCControlButtonExample_Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlButtonExample_Event.h; sourceTree = "<group>"; };
+		D79A185E15F92F4300DBEE4D /* CCControlButtonExample_Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlButtonExample_Event.m; sourceTree = "<group>"; };
+		D79A186215F932AC00DBEE4D /* button-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-hd.png"; sourceTree = "<group>"; };
+		D79A186315F932AC00DBEE4D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		D79A186415F932AC00DBEE4D /* buttonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBackground.png; sourceTree = "<group>"; };
+		D79A186515F932AC00DBEE4D /* buttonHighlighted-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonHighlighted-hd.png"; sourceTree = "<group>"; };
+		D79A186615F932AC00DBEE4D /* buttonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonHighlighted.png; sourceTree = "<group>"; };
+		D79A186C15F932B600DBEE4D /* CCControlButtonExample_VariableSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlButtonExample_VariableSize.m; sourceTree = "<group>"; };
 		DC3BE97813B4FB71003739CC /* BuildSettings-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-iOS.xcconfig"; sourceTree = "<group>"; };
 		DC485B0D13AA0E5600F2BC70 /* libchipmunk-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libchipmunk-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC485B1613AA0EBB00F2BC70 /* libbox2d-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libbox2d-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -340,35 +343,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D711479515F7EADC0063D9F6 /* CCControlButtonTest */ = {
+		D711479515F7EADC0063D9F6 /* CCControlButtonExample */ = {
 			isa = PBXGroup;
 			children = (
-				D711479615F7EADC0063D9F6 /* CCControlButtonTest.h */,
-				D711479715F7EADC0063D9F6 /* CCControlButtonTest.m */,
-				D711479815F7EADC0063D9F6 /* Resources */,
+				D79A185D15F92F4300DBEE4D /* CCControlButtonExample_Event.h */,
+				D79A185E15F92F4300DBEE4D /* CCControlButtonExample_Event.m */,
+				D789A3BF15F9239100925440 /* CCControlButtonExample_VariableSize.h */,
+				D79A186C15F932B600DBEE4D /* CCControlButtonExample_VariableSize.m */,
+				D79A186115F932AC00DBEE4D /* Resources */,
 			);
+			name = CCControlButtonExample;
 			path = CCControlButtonTest;
 			sourceTree = "<group>";
 		};
-		D711479815F7EADC0063D9F6 /* Resources */ = {
+		D711479E15F7EADC0063D9F6 /* CCControlColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				D711479915F7EADC0063D9F6 /* button-hd.png */,
-				D711479A15F7EADC0063D9F6 /* button.png */,
-				D711479B15F7EADC0063D9F6 /* buttonBackground.png */,
-				D711479C15F7EADC0063D9F6 /* buttonHighlighted-hd.png */,
-				D711479D15F7EADC0063D9F6 /* buttonHighlighted.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		D711479E15F7EADC0063D9F6 /* CCControlColourPicker */ = {
-			isa = PBXGroup;
-			children = (
-				D711479F15F7EADC0063D9F6 /* CCControlColourPickerTest.h */,
-				D71147A015F7EADC0063D9F6 /* CCControlColourPickerTest.m */,
+				D711479F15F7EADC0063D9F6 /* CCControlColorPickerExample.h */,
+				D71147A015F7EADC0063D9F6 /* CCControlColorPickerExample.m */,
 				D71147A115F7EADC0063D9F6 /* Resources */,
 			);
+			name = CCControlColorPicker;
 			path = CCControlColourPicker;
 			sourceTree = "<group>";
 		};
@@ -415,8 +410,8 @@
 		D71147AE15F7EADC0063D9F6 /* CCControlPotentiometerTest */ = {
 			isa = PBXGroup;
 			children = (
-				D71147AF15F7EADC0063D9F6 /* CCControlPotentiometerTest.h */,
-				D71147B015F7EADC0063D9F6 /* CCControlPotentiometerTest.m */,
+				D71147AF15F7EADC0063D9F6 /* CCControlPotentiometerExample.h */,
+				D71147B015F7EADC0063D9F6 /* CCControlPotentiometerExample.m */,
 				D71147B115F7EADC0063D9F6 /* Resources */,
 			);
 			path = CCControlPotentiometerTest;
@@ -444,8 +439,8 @@
 		D71147BE15F7EADC0063D9F6 /* CCControlSliderTest */ = {
 			isa = PBXGroup;
 			children = (
-				D71147BF15F7EADC0063D9F6 /* CCControlSliderTest.h */,
-				D71147C015F7EADC0063D9F6 /* CCControlSliderTest.m */,
+				D71147BF15F7EADC0063D9F6 /* CCControlSliderExample.h */,
+				D71147C015F7EADC0063D9F6 /* CCControlSliderExample.m */,
 				D71147C115F7EADC0063D9F6 /* Resources */,
 			);
 			path = CCControlSliderTest;
@@ -467,8 +462,8 @@
 		D71147C815F7EADC0063D9F6 /* CCControlStepperTest */ = {
 			isa = PBXGroup;
 			children = (
-				D71147C915F7EADC0063D9F6 /* CCControlStepperTest.h */,
-				D71147CA15F7EADC0063D9F6 /* CCControlStepperTest.m */,
+				D71147C915F7EADC0063D9F6 /* CCControlStepperExample.h */,
+				D71147CA15F7EADC0063D9F6 /* CCControlStepperExample.m */,
 				D71147CB15F7EADC0063D9F6 /* Resources */,
 			);
 			path = CCControlStepperTest;
@@ -490,8 +485,8 @@
 		D71147D215F7EADC0063D9F6 /* CCControlSwitchTest */ = {
 			isa = PBXGroup;
 			children = (
-				D71147D315F7EADC0063D9F6 /* CCControlSwitchTest.h */,
-				D71147D415F7EADC0063D9F6 /* CCControlSwitchTest.m */,
+				D71147D315F7EADC0063D9F6 /* CCControlSwitchExample.h */,
+				D71147D415F7EADC0063D9F6 /* CCControlSwitchExample.m */,
 				D71147D515F7EADC0063D9F6 /* Resources */,
 			);
 			path = CCControlSwitchTest;
@@ -595,6 +590,18 @@
 			path = MenuImages;
 			sourceTree = "<group>";
 		};
+		D79A186115F932AC00DBEE4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D79A186215F932AC00DBEE4D /* button-hd.png */,
+				D79A186315F932AC00DBEE4D /* button.png */,
+				D79A186415F932AC00DBEE4D /* buttonBackground.png */,
+				D79A186515F932AC00DBEE4D /* buttonHighlighted-hd.png */,
+				D79A186615F932AC00DBEE4D /* buttonHighlighted.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DCC1A0D613A94EC0005BD75D = {
 			isa = PBXGroup;
 			children = (
@@ -685,8 +692,8 @@
 				D711474B15F7DEC00063D9F6 /* CCControlScene.m */,
 				D711474C15F7DEC00063D9F6 /* CCControlSceneManager.h */,
 				D711474D15F7DEC00063D9F6 /* CCControlSceneManager.m */,
-				D711479515F7EADC0063D9F6 /* CCControlButtonTest */,
-				D711479E15F7EADC0063D9F6 /* CCControlColourPicker */,
+				D711479515F7EADC0063D9F6 /* CCControlButtonExample */,
+				D711479E15F7EADC0063D9F6 /* CCControlColorPicker */,
 				D71147AE15F7EADC0063D9F6 /* CCControlPotentiometerTest */,
 				D71147BE15F7EADC0063D9F6 /* CCControlSliderTest */,
 				D71147C815F7EADC0063D9F6 /* CCControlStepperTest */,
@@ -811,11 +818,6 @@
 				DCC1A10813A94ED5005BD75D /* Icon@2x.png in Resources */,
 				DCC1A3AF13A94F1A005BD75D /* config.lua in Resources */,
 				DC599A43142289D70067495F /* iTunesArtwork in Resources */,
-				D71147E315F7EADC0063D9F6 /* button-hd.png in Resources */,
-				D71147E415F7EADC0063D9F6 /* button.png in Resources */,
-				D71147E515F7EADC0063D9F6 /* buttonBackground.png in Resources */,
-				D71147E615F7EADC0063D9F6 /* buttonHighlighted-hd.png in Resources */,
-				D71147E715F7EADC0063D9F6 /* buttonHighlighted.png in Resources */,
 				D71147E915F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet-hd.plist in Resources */,
 				D71147EA15F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet-hd.png in Resources */,
 				D71147EB15F7EADC0063D9F6 /* CCControlColourPickerSpriteSheet-hd.tps in Resources */,
@@ -884,6 +886,11 @@
 				D711499515F8023A0063D9F6 /* r2-hd.png in Resources */,
 				D711499615F8023A0063D9F6 /* r2-ipad.png in Resources */,
 				D711499715F8023A0063D9F6 /* r2.png in Resources */,
+				D79A186715F932AC00DBEE4D /* button-hd.png in Resources */,
+				D79A186815F932AC00DBEE4D /* button.png in Resources */,
+				D79A186915F932AC00DBEE4D /* buttonBackground.png in Resources */,
+				D79A186A15F932AC00DBEE4D /* buttonHighlighted-hd.png in Resources */,
+				D79A186B15F932AC00DBEE4D /* buttonHighlighted.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -910,12 +917,11 @@
 				DCC1A3AD13A94F1A005BD75D /* main.m in Sources */,
 				D711474E15F7DEC00063D9F6 /* CCControlScene.m in Sources */,
 				D711474F15F7DEC00063D9F6 /* CCControlSceneManager.m in Sources */,
-				D71147E215F7EADC0063D9F6 /* CCControlButtonTest.m in Sources */,
-				D71147E815F7EADC0063D9F6 /* CCControlColourPickerTest.m in Sources */,
-				D71147F215F7EADC0063D9F6 /* CCControlPotentiometerTest.m in Sources */,
-				D71147FF15F7EADC0063D9F6 /* CCControlSliderTest.m in Sources */,
-				D711480615F7EADC0063D9F6 /* CCControlStepperTest.m in Sources */,
-				D711480D15F7EADC0063D9F6 /* CCControlSwitchTest.m in Sources */,
+				D71147E815F7EADC0063D9F6 /* CCControlColorPickerExample.m in Sources */,
+				D71147F215F7EADC0063D9F6 /* CCControlPotentiometerExample.m in Sources */,
+				D71147FF15F7EADC0063D9F6 /* CCControlSliderExample.m in Sources */,
+				D711480615F7EADC0063D9F6 /* CCControlStepperExample.m in Sources */,
+				D711480D15F7EADC0063D9F6 /* CCControlSwitchExample.m in Sources */,
 				D711495715F801140063D9F6 /* CCControl.m in Sources */,
 				D711495815F801140063D9F6 /* CCControlButton.m in Sources */,
 				D711495915F801140063D9F6 /* CCControlColourPicker.m in Sources */,
@@ -929,6 +935,8 @@
 				D711496115F801140063D9F6 /* CCScale9Sprite.m in Sources */,
 				D711496215F801150063D9F6 /* CCSprite+Rotation.m in Sources */,
 				D711496315F801150063D9F6 /* Utils.m in Sources */,
+				D79A185F15F92F4300DBEE4D /* CCControlButtonExample_Event.m in Sources */,
+				D79A186D15F932B600DBEE4D /* CCControlButtonExample_VariableSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

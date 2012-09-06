@@ -50,14 +50,13 @@ static CCControlSceneManager *sharedInstance = nil;
         currentControlSceneId = 0;
         
         controlScenes = [[NSArray alloc] initWithObjects:
-                         @"CCControlSliderTest",
-                         @"CCControlColourPickerTest",
-                         @"CCControlSwitchTest",
-                         @"CCControlStepperTest",
-                         @"CCControlButtonTest_Event",
-                         @"CCControlButtonTest_HelloVariableSize",
-                         @"CCControlButtonTest_Styling",
-                         @"CCControlPotentiometerTest",
+                         @"CCControlSliderExample",
+                         @"CCControlColorPickerExample",
+                         @"CCControlSwitchExample",
+                         @"CCControlStepperExample",
+                         @"CCControlButtonExample_Event",
+                         @"CCControlButtonExample_VariableSize",
+                         @"CCControlPotentiometerExample",
                          nil];
     }
     return self;
