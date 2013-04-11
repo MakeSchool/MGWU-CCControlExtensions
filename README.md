@@ -1,8 +1,10 @@
 MGWU-CCControlExtensions
 ===========================
 
-Cocos2D versions of UIControl classes.
-Original code by YannickL (see forked project).
+**NOTE: This project is outdated and is no longer being actively maintained (only supports cocos2d/Kobold2D 1.X). The original YannickL project (https://github.com/YannickL/CCControlExtension) is actively maintained and now suports cocos2d 2.X and ARC. This repo remains for posterity. The combined screenshot (CCControlExtensionsScreenshots.[jpg][xcf]) and the changes I made to simplify commenting may be useful.**
+
+cocos2d-iphone versions of UIControl classes.
+Original code by YannickL (https://github.com/YannickL/CCControlExtension).
 
 Modified by Brian Chu for MakeGamesWithUs (http://makegameswith.us).
 Changes: conversion to ARC, simplified examples, simplified comments.
